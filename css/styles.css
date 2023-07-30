@@ -120,6 +120,10 @@ body img {
 }
 
 @media (width <= 500px) {
+  body {
+    background-image: url("../images/pattern-background-mobile.svg");
+    background-repeat: repeat-x;
+  }
   #card {
     overflow-x: hidden;
     width: 90%;
